@@ -100,6 +100,16 @@ The project supports:
 - functional metagenomics analysis
 - computational microbiome research
 
+## External Tools
+
+The following external bioinformatics tools are required:
+
+- eggNOG-mapper
+- BLAST+
+- BRIG
+
+These tools should be installed separately and configured in the system PATH.
+
 ## Citation
 
 If you use this repository, please cite:
