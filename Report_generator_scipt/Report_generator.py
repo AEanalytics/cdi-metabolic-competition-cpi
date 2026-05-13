@@ -1,6 +1,9 @@
 """
 AA Pathway Protection Predictor
 Analyzes bacterial genomes for protective potential against C. difficile
+Author: Ebenezer T. A., Anastatsia N.K
+Master's Thesis Project
+Year: 2026
 """
 
 import pandas as pd
