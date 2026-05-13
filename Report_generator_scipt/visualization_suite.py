@@ -3,6 +3,9 @@ AA Pathway Visualization Suite
 - Heatmaps
 - Radar Charts
 - Missing Pathway Analysis
+Author: Ebenezer T. A., Anastatsia N.K
+Master's Thesis Project
+Year: 2026
 """
 
 import glob
