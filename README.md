@@ -1,36 +1,107 @@
-This repository contains the computational framework developed as part of the Master's thesis: "Investigating the Colonization Dynamics of _Clostridioides difficile_ through Metabolic Niche Competition in Human and Animal Gut Microbiomes"
+## Overview
 
-The project introduces a pathway-based computational method for predicting microbial species capable of competing with _Clostridioides difficile_ through amino acid metabolic overlap.The framework calculates a Competitive Potential Index (CPI) based on KEGG Ortholog pathway completeness across fourteen amino acid metabolic pathways associated with _Clostridioides difficile_ physiology and Stickland fermentation.
+This repository contains the computational framework developed for the Master's thesis:
 
-**#Objectives**
+"Investigating the Colonization Dynamics of _Clostridioides difficile_ through Metabolic Niche Competition in Human and Animal Gut Microbiomes"
 
-1. Identify amino acid pathways essential to Clostridioides difficile
+The project introduces a pathway-based computational method for predicting microbial species capable of competing with _Clostridioides difficile_ through amino acid metabolic overlap.
 
-2. Quantify metabolic overlap between gut microbial species
+The framework calculates a Competitive Potential Index (CPI) using KEGG Ortholog pathway completeness across amino acid biosynthesis pathways associated with _Clostridioides difficile_ metabolism.
 
-3. Calculate Competitive Potential Index (CPI)
+## Biological Background
 
-4. Generate heatmaps and radar plots for comparative analysis
+_Clostridioides difficile_ is a major cause of hospital-acquired infectious diarrhea and recurrent gastrointestinal disease.
 
-5. Support functional microbiome analysis and probiotic candidate screening
+While bile acid metabolism and immune modulation have been widely studied as mechanisms of colonization resistance, amino acid competition remains comparatively underexplored.
 
+This project investigates whether microbial species with overlapping amino acid metabolic capabilities may reduce nutrient availability for _C. difficile_ and contribute to colonization resistance.
 
-The framework evaluates overlap across the following amino acids: Proline, Glycine, Leucine, Isoleucine, Valine, Arginine, Asparagine,Glutamate, Glutamine, Histidine,Lysine, Methionine,Threonine, Cysteine
+## Objectives
 
-**Outputs include:** CPI score tables, Heatmaps, Radar plots, Comparative pathway reports, BRIG genome comparison visualizations.
+- Identify amino acids essential to _C. difficile_ metabolism
+- Quantify metabolic overlap between microbial species
+- Develop a Competitive Potential Index (CPI)
+- Generate comparative visualizations
+- Support microbiome-based therapeutic research
 
-**Scientific Significance of thiss framework provides:**
+## Workflow
 
-1. Functional interpretation of colonization resistance
+1. Genome acquisition from NCBI
+2. Functional annotation using eggNOG-mapper
+3. KEGG Ortholog extraction
+4. Amino acid pathway reconstruction
+5. CPI calculation
+6. Visualization and reporting
 
-2. A computational approach to microbiome competition analysis
+## Amino Acids Included
 
-3. A scalable method for probiotic candidate identification
+The framework evaluates overlap across the following amino acids:
 
-4. A metabolism-centered alternative to taxonomic profiling_
+- Proline
+- Glycine
+- Leucine
+- Isoleucine
+- Valine
+- Arginine
+- Asparagine
+- Glutamate
+- Glutamine
+- Histidine
+- Lysine
+- Methionine
+- Threonine
+- Cysteine
 
-**Citation**
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/AEanalytics/cdi-metabolic-competition-cpi.git
+cd cdi-metabolic-competition-cpi
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Run CPI Pipeline
+
+```bash
+python Report_generator_script/Report_generator.py
+```
+
+### Generate Visualizations
+
+```bash
+python Report_generator_script/vissualization_suite.py
+```
+
+## Outputs
+
+The framework generates:
+
+- CPI score tables
+- Heatmaps
+- Radar plots
+- Comparative pathway reports
+
+## Scientific Significance
+
+This framework provides a functional approach for analyzing colonization resistance through metabolic competition.
+
+The project supports:
+- probiotic candidate screening
+- microbiome therapeutic design
+- functional metagenomics analysis
+- computational microbiome research
+
+## Citation
 
 If you use this repository, please cite:
 
-Abimbola Ebenezer, Anastasia Kholodnaya. Investigating the Colonization Dynamics of _Clostridioides difficile_ through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
+Ebenezer T. A., Anastasia Kholodnaia. Investigating the Colonization Dynamics of Clostridioides difficile through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
