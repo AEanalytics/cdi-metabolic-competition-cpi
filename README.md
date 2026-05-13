@@ -6,7 +6,7 @@ This repository contains the computational framework developed for the Master's 
 
 The project introduces a pathway-based computational method for predicting microbial species capable of competing with _Clostridioides difficile_ through amino acid metabolic overlap.
 
-The framework calculates a Competitive Potential Index (CPI) using KEGG Ortholog pathway completeness across amino acid biosynthesis pathways associated with _Clostridioides difficile_ metabolism.
+The framework calculates a Competitive Potential Index (CPI) using KEGG Ortholog pathway completeness across amino acid pathways associated with _Clostridioides difficile_ metabolism.
 
 ## Biological Background
 
