@@ -78,7 +78,7 @@ python Report_generator_script/Report_generator.py
 ### Generate Visualizations
 
 ```bash
-python Report_generator_script/vissualization_suite.py
+python Report_generator_script/visualization_suite.py
 ```
 
 ## Outputs
@@ -102,13 +102,28 @@ The project supports:
 
 ## External Tools
 
-The following external bioinformatics tools are required:
+The framework requires the following external bioinformatics software:
 
-- eggNOG-mapper
-- BLAST+
-- BRIG
+| Tool | Purpose |
+|------|----------|
+| eggNOG-mapper | Functional annotation and KEGG Ortholog assignment |
+| BLAST+ | Sequence comparison |
+| BRIG | Comparative genome visualization |
 
-These tools should be installed separately and configured in the system PATH.
+These tools should be installed separately and configured in the system PATH
+
+### eggNOG-mapper
+
+Functional annotation was performed using eggNOG-mapper v2.
+
+Example command:
+
+```bash
+emapper.py -i GCA_018885085.1_ASM1888508v1_protein.faa \
+--data_dir ~/eggnog_db \
+--database bact \
+-o C_difficile_annotations
+```
 
 ## Citation
 
