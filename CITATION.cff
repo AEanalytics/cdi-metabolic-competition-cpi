@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "CPI Framework for Predicting Microbial Competition Against Clostridioides difficile"
+authors:
+  - family-names: "Abimbola"
+    given-names: "E. T."
+  - family-names: "Anastasia"
+    given-names: "K. N."
+version: 1.0.0
+date-released: 2026-05-14
+license: MIT
