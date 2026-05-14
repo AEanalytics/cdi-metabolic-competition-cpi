@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Bioinformatics](https://img.shields.io/badge/field-bioinformatics-orange)
+![Biotechnology](https://img.shields.io/badge/field-biotechnology-purple)
+
 ## Overview
 
 This repository contains the computational framework developed for the Master's thesis:
