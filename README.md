@@ -10,11 +10,7 @@ The framework calculates a Competitive Potential Index (CPI) using KEGG Ortholog
 
 ## Biological Background
 
-_Clostridioides difficile_ is a major cause of hospital-acquired infectious diarrhea and recurrent gastrointestinal disease.
-
-While bile acid metabolism and immune modulation have been widely studied as mechanisms of colonization resistance, amino acid competition remains comparatively underexplored.
-
-This project investigates whether microbial species with overlapping amino acid metabolic capabilities may reduce nutrient availability for _C. difficile_ and contribute to colonization resistance.
+_Clostridioides difficile_ is a major cause of hospital-acquired infectious diarrhea and recurrent gastrointestinal disease(Laura et al., 2025).While bile acid metabolism and immune modulation have been widely studied as mechanisms of colonization resistance, amino acid competition remains comparatively underexplored. This project investigates whether microbial species with overlapping amino acid metabolic capabilities may reduce nutrient availability for _C. difficile_ and contribute to colonization resistance.
 
 ## Objectives
 
@@ -129,4 +125,4 @@ emapper.py -i GCA_018885085.1_ASM1888508v1_protein.faa \
 
 If you use this repository, please cite:
 
-Ebenezer T. A., Anastasia Kholodnaia. Investigating the Colonization Dynamics of Clostridioides difficile through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
+Ebenezer T. A., Anastasia K.N. Investigating the Colonization Dynamics of Clostridioides difficile through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
