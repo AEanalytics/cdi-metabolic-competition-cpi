@@ -131,4 +131,4 @@ emapper.py -i GCA_018885085.1_ASM1888508v1_protein.faa \
 
 If you use this repository, please cite:
 
-Ebenezer T. A., Anastasia K.N. Investigating the Colonization Dynamics of Clostridioides difficile through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
+Ebenezer T. A., Kholodnaia A.N. Investigating the Colonization Dynamics of _Clostridioides difficile_ through Metabolic Niche Competition in Human and Animal Gut Microbiomes. Master's Thesis. 2026.
